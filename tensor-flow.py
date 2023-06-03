@@ -23,4 +23,4 @@ print("California Housing Compiling")
 model.compile(optimizer=tf.optimizers.Adam(0.02), loss='mean_squared_error')
 
 print("California Housing Fitting")
-model.fit(X_Train, Y_Train, epochs=300)
+model.fit(X_Train, Y_Train, epochs=200)
